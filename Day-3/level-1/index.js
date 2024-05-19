@@ -18,17 +18,25 @@ console.log(typeof(year))
 
 
 // Check if type of '10' is equal to 10
-let number = '10'
-console.log(typeof(number))
+console.log(typeof '10' == 10)
 
 
 
 // Check if parseInt('9.8') is equal to 10
+console.log(parseInt('9.8') == 10)
 
 // Boolean value is either true or false.
+    // Write three JavaScript statement which provide truthy value.
+        console.log(19 >= 12)
+        console.log(9 > 2)
+        console.log(5 == 5)
+    // Write three JavaScript statement which provide falsy value.
+        console.log(9 < 2)
+        console.log(3 == 9)
+        console.log(4 < 4)
 
-// Write three JavaScript statement which provide truthy value.
-// Write three JavaScript statement which provide falsy value.
+
+
 // Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 
 // 4 > 3
