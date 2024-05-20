@@ -38,19 +38,45 @@ console.log(parseInt('9.8') == 10)
 
 
 // Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+    // 4 > 3
+    console.log(4 > 3)
 
-// 4 > 3
-// 4 >= 3
-// 4 < 3
-// 4 <= 3
-// 4 == 4
-// 4 === 4
-// 4 != 4
-// 4 !== 4
-// 4 != '4'
-// 4 == '4'
-// 4 === '4'
-// Find the length of python and jargon and make a falsy comparison statement.
+    // 4 >= 3
+    console.log(4 >= 3)
+
+    // 4 < 3
+    console.log(4 < 3)
+
+    // 4 <= 3
+    console.log(4 <= 3)
+
+    // 4 == 4
+    console.log(4 == 4)
+
+    // 4 === 4
+    console.log(4 === 4)
+
+    // 4 != 4
+    console.log(4 != 4)
+
+    // 4 !== 4
+    console.log(4 !== 4)
+
+    // 4 != '4'
+    console.log(4 != '4')
+
+    // 4 == '4'
+    console.log(4 == '4')
+
+    // 4 === '4'
+    console.log(4 === '4')
+
+    // Find the length of python and jargon and make a falsy comparison statement.
+    let txt1 = 'python'
+    let txt2 = 'jargon'
+    console.log(txt1.length != txt2.length)
+
+
 // Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 
 // 4 > 3 && 10 < 12
