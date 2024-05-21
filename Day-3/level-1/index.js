@@ -78,24 +78,46 @@ console.log(parseInt('9.8') == 10)
 
 
 // Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
+    // 4 > 3 && 10 < 12
+    console.log(4 > 3 && 10 < 12)
 
-// 4 > 3 && 10 < 12
-// 4 > 3 && 10 > 12
-// 4 > 3 || 10 < 12
-// 4 > 3 || 10 > 12
-// !(4 > 3)
-// !(4 < 3)
-// !(false)
-// !(4 > 3 && 10 < 12)
-// !(4 > 3 && 10 > 12)
-// !(4 === '4')
-// There is no 'on' in both dragon and python
+    // 4 > 3 && 10 > 12
+    console.log(4 > 3 && 10 > 12)
+
+    // 4 > 3 || 10 < 12
+    console.log(4 > 3 || 10 < 12)
+
+    // 4 > 3 || 10 > 12
+    console.log(4 > 3 || 10 > 12)
+
+    // !(4 > 3)
+    console.log(!(4 > 3))
+
+    // !(4 < 3)
+    console.log(!(4 < 3))
+
+    // !(false)
+    console.log(!(false))
+
+    // !(4 > 3 && 10 < 12)
+    console.log(!(4 > 3 && 10 < 12))
+
+    // !(4 > 3 && 10 > 12)
+    console.log(!(4 > 3 && 10 > 12))
+
+    // !(4 === '4')
+    console.log(!(4 === '4'))
+
+    // There is no 'on' in both dragon and python
+    console.log('python'.includes('on') && 'jargon'.includes('on'))
+
+
+
 // Use the Date object to do the following activities
-
-// What is the year today?
-// What is the month today as a number?
-// What is the date today?
-// What is the day today as a number?
-// What is the hours now?
-// What is the minutes now?
-// Find out the numbers of seconds elapsed from January 1, 1970 to now.
+    // What is the year today?
+    // What is the month today as a number?
+    // What is the date today?
+    // What is the day today as a number?
+    // What is the hours now?
+    // What is the minutes now?
+    // Find out the numbers of seconds elapsed from January 1, 1970 to now.
