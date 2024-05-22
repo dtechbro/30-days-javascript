@@ -114,10 +114,25 @@ console.log(parseInt('9.8') == 10)
 
 
 // Use the Date object to do the following activities
+const today = new Date()
+
     // What is the year today?
+    console.log(today.getFullYear())
+
     // What is the month today as a number?
+    console.log(today.getMonth() + 1)
+
     // What is the date today?
+    console.log(today.getDate())
+
     // What is the day today as a number?
+    console.log(today.getDay())
+
     // What is the hours now?
+    console.log(today.getHours())
+
     // What is the minutes now?
+    console.log(today.getMinutes())
+
     // Find out the numbers of seconds elapsed from January 1, 1970 to now.
+    console.log(Math.floor(today.getTime() / 1000))
