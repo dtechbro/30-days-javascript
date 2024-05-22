@@ -65,22 +65,46 @@
     let gradient = (y2 - y1) / (x2 - x1)
     console.log(gradient)
 
+
+
+
 // Compare the slope of above two questions.
+console.log(gradient - slope)
+
+
 
 // Calculate the value of y (y = x2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 
-// Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 
-// Enter hours: 40
-// Enter rate per hour: 28
-// Your weekly earning is 1120
+// Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+    // Enter hours: 40
+    // let hrs = prompt("Enter hours:")
+
+    // Enter rate per hour: 28
+    // let rate = prompt('Enter rate per hour:')
+
+    // Your weekly earning is 1120
+    // console.log(`Your weekly earning is ${Number(hrs) * Number(rate)}`)
+
+
+
 // If the length of your name is greater than 7 say, your name is long else say your name is short.
+    let name = "Muhammad-Nabeel"
+    name.length > 7
+        ? console.log("Your name is long")
+        : console.log("Your name is short")
+
+
 
 // Compare your first name length and your family name length and you should get this output.
+    let firstName = 'Muhammad-Nabeel'
+    let lastName = 'Olaoye'
+    firstName.length > lastName.length
+        ? console.log(`Your first name, ${firstName} is longer than your family name, ${lastName}`)
+        : console.log(`Your family name ${lastName} is longer than your first name ${firstName}`)
 
-// let firstName = 'Asabeneh'
-// let lastName = 'Yetayeh'
-// Your first name, Asabeneh is longer than your family name, Yetayeh
+
+        
 // Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
 
 // let myAge = 250
