@@ -104,16 +104,26 @@ console.log(gradient - slope)
         : console.log(`Your family name ${lastName} is longer than your first name ${firstName}`)
 
 
-        
+
 // Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+    let myAge = 19
+    let yourAge = 17
+    console.log(`I am ${myAge - yourAge} years older than you.`)
 
-// let myAge = 250
-// let yourAge = 25
-// I am 225 years older than you.
+
+
+
 // Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+    // Enter birth year: 1995
+    let drive = prompt('Enter birth year')
+    let currentYear = new Date().getFullYear()
+    let age = currentYear - drive
 
-// Enter birth year: 1995
-// You are 25. You are old enough to drive
+    // You are 25. You are old enough to drive
+    age >= 18
+        ? console.log(`You are ${age}. You are old enough to drive`)
+        : console.log(`You are ${age}. You aren't allowed to drive at this age`)
+    
 
 // Enter birth year: 2005
 // You are 15. You will be allowed to drive after 3 years.
