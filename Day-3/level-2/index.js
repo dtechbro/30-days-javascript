@@ -115,24 +115,36 @@ console.log(gradient - slope)
 
 // Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
     // Enter birth year: 1995
-    let drive = prompt('Enter birth year')
-    let currentYear = new Date().getFullYear()
-    let age = currentYear - drive
+    // Enter birth year: 2005
+
+    // let drive = prompt('Enter birth year')
+    // let currentYear = new Date().getFullYear()
+    // let age = currentYear - drive
 
     // You are 25. You are old enough to drive
-    age >= 18
-        ? console.log(`You are ${age}. You are old enough to drive`)
-        : console.log(`You are ${age}. You aren't allowed to drive at this age`)
-    
+    // You are 15. You will be allowed to drive after 3 years.
 
-// Enter birth year: 2005
-// You are 15. You will be allowed to drive after 3 years.
+    // age >= 18
+        // ? console.log(`You are ${age}. You are old enough to drive`)
+        // : console.log(`You are ${age}. You will be allowed to drive after ${18 - age} years`)
+
+
+
+
 // Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+    // Enter number of years you live: 100
 
-// Enter number of years you live: 100
-// You lived 3153600000 seconds.
+    // let yourYears = prompt('Enter number of years you live:')
+    // let livedSec = (60 * 60 * 24 * 365) * Number(yourYears)
+
+    // You lived 3153600000 seconds.
+
+    // console.log(`You lived ${livedSec} seconds`)
+
+
 // Create a human readable time format using the Date time object
-
-// YYYY-MM-DD HH:mm
-// DD-MM-YYYY HH:mm
-// DD/MM/YYYY HH:mm
+    // YYYY-MM-DD HH:mm
+    let yearDate = new Date()
+    console.log(`${yearDate.getFullYear()}-${yearDate.getMonth()}-${yearDate.getDate()} ${yearDate.getUTCHours()}:${yearDate.getUTCMinutes()}`)
+    // DD-MM-YYYY HH:mm
+    // DD/MM/YYYY HH:mm
