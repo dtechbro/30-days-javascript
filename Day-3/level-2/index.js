@@ -145,6 +145,10 @@ console.log(gradient - slope)
 // Create a human readable time format using the Date time object
     // YYYY-MM-DD HH:mm
     let yearDate = new Date()
-    console.log(`${yearDate.getFullYear()}-${yearDate.getMonth()}-${yearDate.getDate()} ${yearDate.getUTCHours()}:${yearDate.getUTCMinutes()}`)
+    console.log(`${yearDate.getFullYear()}-${yearDate.getMonth()}-${yearDate.getDate()} ${yearDate.getHours()}:${yearDate.getMinutes()}`)
+
     // DD-MM-YYYY HH:mm
+    console.log(`${yearDate.getDate()}-${yearDate.getMonth()}-${yearDate.getFullYear()} ${yearDate.getHours()}:${yearDate.getMinutes()}`)
+
     // DD/MM/YYYY HH:mm
+    console.log(`${yearDate.getDate()}/${yearDate.getMonth()}/${yearDate.getFullYear()} ${yearDate.getHours()}:${yearDate.getMinutes()}`)
