@@ -3,9 +3,9 @@
     // Enter height: 10
     // The area of the triangle is 100
 
-    // let base = prompt('Enter base:')
-    // let height = prompt('Enter height:')
-    // console.log('area :' + 0.5 * base * height)
+    let base = prompt('Enter base:')
+    let height = prompt('Enter height:')
+    console.log('area :' + 0.5 * base * height)
 
 
 
@@ -15,34 +15,34 @@
     // Enter side c: 3
     // The perimeter of the triangle is 12
 
-    // let a = prompt('Enter side a:')
-    // let b = prompt('Enter side b:')
-    // let c = prompt('Enter side c:')
-    // let perimeter = Number(a) + Number(b) + Number(c)
-    // console.log(`Perimeter of the triangle: ${perimeter}`)
+    let a = prompt('Enter side a:')
+    let b = prompt('Enter side b:')
+    let c = prompt('Enter side c:')
+    let perimeter = Number(a) + Number(b) + Number(c)
+    console.log(`Perimeter of the triangle: ${perimeter}`)
 
 
 
 // Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
-    // let length = prompt('Length of the rectangle:')
-    // let width = prompt("Width of the rectangle:")
-    // let area = Number(length) * Number(width)
-    // console.log( `Area of the rectangle: ${area}`)
+    let length = prompt('Length of the rectangle:')
+    let width = prompt("Width of the rectangle:")
+    let area = Number(length) * Number(width)
+    console.log( `Area of the rectangle: ${area}`)
 
-    // let perimeter = 2 * (Number(length) + Number(width))
-    // console.log(`Perimeter of the rectangle: ${perimeter}`)
+    let band = 2 * (Number(length) + Number(width))
+    console.log(`Perimeter of the rectangle: ${band}`)
 
 
 
 // Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-    // let radius = prompt('Radius of the circle:')
-    // const PI = 3.14
+    let radius = prompt('Radius of the circle:')
+    const PI = 3.14
 
-    // let area = PI * Number(radius) * Number(radius)
-    // console.log(`The area of the circle is: ${area}`)
+    let cirArea = PI * Number(radius) * Number(radius)
+    console.log(`The area of the circle is: ${cirArea}`)
 
-    // let circ = 2 * PI * Number(radius)
-    // console.log(`The circumfrence of the circle is: ${circ}`)
+    let circ = 2 * PI * Number(radius)
+    console.log(`The circumfrence of the circle is: ${circ}`)
 
 
 
@@ -78,13 +78,13 @@ console.log(gradient - slope)
 
 // Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
     // Enter hours: 40
-    // let hrs = prompt("Enter hours:")
+    let hrs = prompt("Enter hours:")
 
     // Enter rate per hour: 28
-    // let rate = prompt('Enter rate per hour:')
+    let rate = prompt('Enter rate per hour:')
 
     // Your weekly earning is 1120
-    // console.log(`Your weekly earning is ${Number(hrs) * Number(rate)}`)
+    console.log(`Your weekly earning is ${Number(hrs) * Number(rate)}`)
 
 
 
@@ -117,29 +117,27 @@ console.log(gradient - slope)
     // Enter birth year: 1995
     // Enter birth year: 2005
 
-    // let drive = prompt('Enter birth year')
-    // let currentYear = new Date().getFullYear()
-    // let age = currentYear - drive
+    let drive = prompt('Enter birth year')
+    let currentYear = new Date().getFullYear()
+    let age = currentYear - drive
 
     // You are 25. You are old enough to drive
     // You are 15. You will be allowed to drive after 3 years.
 
     // age >= 18
-        // ? console.log(`You are ${age}. You are old enough to drive`)
-        // : console.log(`You are ${age}. You will be allowed to drive after ${18 - age} years`)
+        ? console.log(`You are ${age}. You are old enough to drive`)
+        : console.log(`You are ${age}. You will be allowed to drive after ${18 - age} years`)
 
 
 
 
 // Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
     // Enter number of years you live: 100
-
-    // let yourYears = prompt('Enter number of years you live:')
-    // let livedSec = (60 * 60 * 24 * 365) * Number(yourYears)
+    let yourYears = prompt('Enter number of years you live:')
+    let livedSec = (60 * 60 * 24 * 365) * Number(yourYears)
 
     // You lived 3153600000 seconds.
-
-    // console.log(`You lived ${livedSec} seconds`)
+    console.log(`You lived ${livedSec} seconds`)
 
 
 // Create a human readable time format using the Date time object
