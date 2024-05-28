@@ -3,9 +3,25 @@
     let newTime = new Date()
 
     let year = newTime.getFullYear()
-    let month = newTime.getMonth() +1
-    let day = newTime.getDay()
-    let hour = newTime.getHours()
-    let minutes = newTime.getMinutes(padStart(2, '0'))
+    let month = String(newTime.getMonth() +1).padStart(2, '0')
+    let date = String(newTime.getDate()).padStart(2, '0')
+    let hour = String(newTime.getHours()).padStart(2, '0')
+    let minutes = String(newTime.getMinutes()).padStart(2, '0')
 
-    console.log(`${year}-${month}-${day} ${hour}:${minutes}`)
+    console.log(`${year}-${month}-${date} ${hour}:${minutes}`)
+
+
+
+
+
+
+
+    // let newTime = new Date();
+
+    // let year = newTime.getFullYear()
+    // let month = String(newTime.getMonth() + 1).padStart(2, '0'); // getMonth() returns 0-11, add 1 and pad with leading zero
+    // let date = String(newTime.getDate()).padStart(2, '0'); // getDate() returns the day of the month
+    // let hour = String(newTime.getHours()).padStart(2, '0'); // getHours() returns the hour (0-23)
+    // let minutes = String(newTime.getMinutes()).padStart(2, '0'); // getMinutes() returns the minutes (0-59)
+
+    // console.log(`${year}-${month}-${date} ${hour}:${minutes}`);
