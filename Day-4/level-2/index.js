@@ -5,9 +5,17 @@
 // 50-59, D
 // 0-49, F
     let grade = prompt("What's your score:")
-    if (grade >= 80) {
-        console.log("you had an A in the cousre")
-    }   else if (grade >= 70 )
+    if (grade >= 80 && grade <= 100) {
+        console.log("You had an A in the cousre")
+    } else if (grade >= 70 && grade <= 89) {
+         console.log('You had a B in the course')  
+    } else if (grade >= 60 && grade <= 69) {
+        console.log('You had a C in the course')
+    } else if (grade >= 50 && grade <= 59) {
+        console.log('You had a D in the course')
+    } else if (grade >= 0 && grade <= 49) {
+        console.log('You had a F in the course')
+    }
 
 
 
