@@ -4,19 +4,19 @@
 // 60-69, C
 // 50-59, D
 // 0-49, F
-    // let grade = prompt("What's your score:")
+    let grade = prompt("What's your score:")
 
-    // if (grade >= 80 && grade <= 100) {
-    //     console.log("You had an A in the cousre")
-    // } else if (grade >= 70 && grade <= 89) {
-    //      console.log('You had a B in the course')  
-    // } else if (grade >= 60 && grade <= 69) {
-    //     console.log('You had a C in the course')
-    // } else if (grade >= 50 && grade <= 59) {
-    //     console.log('You had a D in the course')
-    // } else if (grade >= 0 && grade <= 49) {
-    //     console.log('You had a F in the course')
-    // }
+    if (grade >= 80 && grade <= 100) {
+        console.log("You had an A in the cousre")
+    } else if (grade >= 70 && grade <= 89) {
+         console.log('You had a B in the course')  
+    } else if (grade >= 60 && grade <= 69) {
+        console.log('You had a C in the course')
+    } else if (grade >= 50 && grade <= 59) {
+        console.log('You had a D in the course')
+    } else if (grade >= 0 && grade <= 49) {
+        console.log('You had a F in the course')
+    }
 
 
 
@@ -25,17 +25,17 @@
 // December, January or February, the season is Winter.
 // March, April or May, the season is Spring
 // June, July or August, the season is Summer
-    // let month = prompt("What month are you in:")
+    let month = prompt("What month are you in:")
 
-    // if (month == 'September' || month == 'October' || month == 'November') {
-    //     console.log(`The season is Autumn`)
-    // } else if (month == 'December' || month == 'January' || month == 'February') {
-    //     console.log(`The season is Winter`);
-    // } else if (month == 'March' || month ==  'April' || month == 'May') {
-    //     console.log(`The season is Spring`);
-    // } else if (month == 'June' || month == 'July' || month == 'August') {
-    //     console.log(`The season is Summer`)
-    // }
+    if (month == 'September' || month == 'October' || month == 'November') {
+        console.log(`The season is Autumn`)
+    } else if (month == 'December' || month == 'January' || month == 'February') {
+        console.log(`The season is Winter`);
+    } else if (month == 'March' || month ==  'April' || month == 'May') {
+        console.log(`The season is Spring`);
+    } else if (month == 'June' || month == 'July' || month == 'August') {
+        console.log(`The season is Summer`)
+    }
 
 
 
