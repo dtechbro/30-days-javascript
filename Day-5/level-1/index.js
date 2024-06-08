@@ -58,12 +58,21 @@ certainCompany != -1
     : console.log('Company is not found')
 
 // Filter out companies which have more than one 'o' without the filter method
-console.log(itCompanies)
+
 // Sort the array using sort() method
+console.log(itCompanies.sort())
+
 // Reverse the array using reverse() method
+console.log(itCompanies.reverse())
+
 // Slice out the first 3 companies from the array
+console.log(itCompanies.slice(3))
+
 // Slice out the last 3 companies from the array
+console.log(itCompanies.slice(0, 4))
+
 // Slice out the middle IT company or companies from the array
+console.log(itCompanies.slice(3, 3))
 // Remove the first IT company from the array
 // Remove the middle IT company or companies from the array
 // Remove the last IT company from the array
