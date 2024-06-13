@@ -14,10 +14,18 @@ console.log(words.length)
 
 // In the following shopping cart add, remove, edit items
 const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+
 // add 'Meat' in the beginning of your shopping cart if it has not been already added
-console.log(shoppingCart.unshift('Meat'))
+shoppingCart.unshift('Meat')
+console.log(shoppingCart)
+
 // add Sugar at the end of you shopping cart if it has not been already added
+shoppingCart.push('Sugar')
+console.log(shoppingCart)
+
 // remove 'Honey' if you are allergic to honey
+
+console.log(shoppingCart)
 // modify Tea to 'Green Tea'
 // In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 
