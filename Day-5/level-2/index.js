@@ -26,7 +26,11 @@ console.log(shoppingCart)
 // remove 'Honey' if you are allergic to honey
 
 console.log(shoppingCart)
+
 // modify Tea to 'Green Tea'
+shoppingCart[3] = 'Green Tea'
+console.log(shoppingCart)
+
 // In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 
 
