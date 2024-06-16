@@ -1,5 +1,3 @@
-// import { countries } from "..countries.js";
-
 // Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
 
 
@@ -26,8 +24,10 @@ shoppingCart.push('Sugar')
 console.log(shoppingCart)
 
 // remove 'Honey' if you are allergic to honey
-
-console.log(shoppingCart)
+let allergy = true || false
+allergy = true
+    ? console.log(shoppingCart)
+    : console.log(shoppingCart)
 
 // modify Tea to 'Green Tea'
 shoppingCart[3] = 'Green Tea'
