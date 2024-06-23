@@ -21,6 +21,8 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 
     // Find the average age(all items divided by number of items)
+    let sum = 0
+    for (let i = 0; i < ages.length
     // Find the range of the ages(max minus min)
     // Compare the value of (min - average) and (max - average), use abs() method 1.Slice the first ten countries from the countries array
 
